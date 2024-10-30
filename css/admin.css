@@ -1,0 +1,35 @@
+#icon-slides {
+  background: url('images/slides.png') no-repeat scroll top left transparent;
+}
+
+table.select input[type="radio"] {
+	width: 0px;
+	visibility: hidden; 
+	float:left;
+}
+
+label.select {
+	display:block;
+	font-size:1.5em;
+	font-weight: bold;
+	height: 44px;
+	padding-left: 50px;
+	background: url('images/select.png') no-repeat 0px 2px;
+}
+
+label.select:hover {
+	background: url('images/select.png') no-repeat 0px -46px;
+}
+
+label.select.selected {
+	background: url('images/select.png') no-repeat 0px -94px;
+}
+
+label.select.selected:hover {
+	background: url('images/select.png') no-repeat 0px -141px;
+}
+
+#lazyest-slides-thickbox-select {
+line-height: 1.5em;
+margin-top: 3px;
+}
